@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">StackOverFlow</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+        </form>
+    </div>
+    <div>
+    <a class="login" href="login">Авторизоваться</a>
+    <a class="registration" href="regist">Зарегистрироваться</a>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+            <img class="avatar" src="https://avatarko.ru/img/kartinka/5/zhivotnye_sobaka_husky_4770.jpg" class="img-fluid" alt="Responsive image">
+                    <p style="line-height: 1;":><a href="#"><i class="arrow_up"></i></a></p>
+                    <p><span class="rating">-12</span><span id="Polzovatel">Пользователь</span></p>
+                    <p style="line-height: 1%;"><a href="#"><i class="arrow_down"></i></a></p>
+        </div>
+        <div class="col-10">
+            <h4 id="Zagolovok">Всем привет. Я копирую этот код с гугла а он не работает. ПАМАГИТЕ С НИМ!!!</h4>
+                    <p class="text1"> Я пишу в гугл скачать код на пайтон. Я его копирую а он не работает. Выдает ошибку что
+                        не хватает точки с запятой в конце строки, что делать есть идеи?
+                    </p>
+                    <p class="text1"><b>Тэги</b>: <a href="#">Что делать</a> <a href="#">Вопрос</a></p>
+        </div>
+        <div class="col-1"><h6 class="Popular">Популярные тэги</h6><p class="tags1"><a href="#">Что делать</a> <a href="#">Вопрос</a> <a href="#">Я не понимаю</a> <a href="#">Вопрост ответ</a> <a href="#">Как пропатчить kde2 под freebsd</a></p>
+                    <h6 class="Popular">Топ за сегодня</h6>
+                    <p style="line-height: 1;"class="tags2"><a class="tags1" href="#">* jkgjkk</a></p>
+                    <p style="line-height: 1;"class="tags2"><a class="tags1" href="#">* Аноним</a></p>
+                    <p style="line-height: 1;"class="tags2"><a class="tags1" href="#">* Ворчливый</a></p>
+                    <p style="line-height: 1;"class="tags2"><a class="tags1" href="#">* Умный</a></p>
+                    <p style="line-height: 1;"class="tags2"><a class="tags1" href="#">* Админ</a></p>
+        </div>
+    </div>
+    <hr>
+     <div class="row answer1">
+         <div class="col-4">
+             <img class="avatar_comm" src="https://i.ytimg.com/vi/k047Nzn-7AI/hqdefault.jpg">
+                    <p style="line-height: 1;":><a href="#"><i class="arrow_up_comm"></i></a></p>
+                    <p><span class="rating_comm">152</span><span class="Polzovatel1">Ворчливый</span></p>
+                    <p style="line-height: 1%;"><a href="#"><i class="arrow_down_comm"></i></a></p>
+         </div>
+                <div class="col-8">
+                    <p class="text_comm"> Тебя в гугле забанили?
+                    </p>
+                </div>
+    </div>
+    <hr>
+    <div class="row answer1">
+         <div class="col-4">
+             <img class="avatar_comm" src="https://image.mel.fm/i/K/KqOeGZ8c5Y/590.png">
+                    <p style="line-height: 1;":><a href="#"><i class="arrow_up_comm"></i></a></p>
+                    <p><span class="rating_comm">31</span><span class="Polzovatel1">Умный</span></p>
+                    <p style="line-height: 1%;"><a href="#"><i class="arrow_down_comm"></i></a></p>
+         </div>
+                <div class="col-8">
+                    <p class="text_comm"> Скинь код посмотреть. Правда я не разбираюсь в этом
+                    </p>
+                </div>
+
+    </div>
+        <div class="row_comm">
+            <div class="col">
+                <div class="form-group">
+                <label for="exampleTextarea">Ваш комментарий</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Введите ваш комментарий сюда..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+        </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!-- Form -->
+        <form class="form-inline">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </form>
+        <!-- Form -->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Your email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+          </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> StackOverFlow.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

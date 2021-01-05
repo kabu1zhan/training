@@ -1,0 +1,129 @@
+.navbar-brand {
+    margin-left: 350px;
+    font: 20pt/10pt roboto;
+}
+.login {
+    color: black;
+    font: 20pt/10pt roboto;
+    margin-right: 50px;
+}
+.registration {
+    color: black;
+    font: 20pt/10pt roboto;
+    margin-right: 100px;
+}
+
+.avatar {
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20%;
+    display: block;
+}
+
+.avatar_comm {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20%;
+    display: block;
+}
+
+i {
+border: solid black;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+}
+
+
+#Polzovatel {
+    margin-left: 110px;
+    color: black;
+    font: 20pt/10pt roboto;
+}
+.Polzovatel1 {
+    margin-left: 10px;
+    color: black;
+    font: 20pt/10pt roboto;
+}
+.rating {
+    margin-left: 0px;
+    color: green;
+    font: 20pt/10pt roboto;
+}
+.rating_comm {
+    margin-left: 150px;
+    color: green;
+    font: 20pt/10pt roboto;
+}
+.arrow_up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.arrow_down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrow_up_comm {
+    margin-left: 150px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.arrow_down_comm {
+    margin-left: 150px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#Zagolovok {
+    margin-top: 30px;
+    margin-left: 350px;
+    font: roboto;
+}
+
+.text1 {
+    margin-top: 30px;
+    margin-left: 350px;
+    font: roboto;
+}
+.text_comm {
+    margin-top: 50px;
+    margin-left: 0px;
+    font: roboto;
+    font-size: 14pt;
+}
+.Popular {
+    font: roboto;
+    font-size: 14pt;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.tags1 {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 300px;
+    color: black;
+    font: roboto;
+}
+.tags2 {
+    margin-top: 10px;
+    width: 300px;
+    color: black;
+    font: roboto;
+}
+.user_list {
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 300px;
+    text-align: right;
+}
+#Uchastniki {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    align: right;
+}
+.row_comm {
+    margin-top: 40px;
+}
